@@ -1,34 +1,31 @@
 # dailystack-privacy
 
-Privacy policy for the **Daily Stack** app (`com.supplements.dailystack`).
+Privacy policy for **Daily Stack** (`com.supplements.dailystack`), an offline supplement
+tracking app by Healthift Sport.
 
-## Yayınlama
+**Live policy:** https://kodmuhendisinet.github.io/dailystack-privacy/
 
-`liftsports-privacy` ile aynı yöntem:
+The policy itself is [`index.html`](index.html) — a single self-contained page, no external
+dependencies, light and dark theme support, responsive.
 
-1. GitHub'da `dailystack-privacy` adında yeni bir depo aç
-2. Bu klasörü içine gönder
-3. Settings → Pages → Source: `main` / root
-4. Çıkan adresi Play Console'da **Store listing → Privacy policy** alanına yapıştır
+## Deployment
 
-Adres şu biçimde olacak:
+Hosted on GitHub Pages: **Settings → Pages → Source: Deploy from a branch → `main` / root**.
 
-```
-https://kodmuhendisinet.github.io/dailystack-privacy/
-```
+Any push to `main` republishes the page within a minute or two.
 
-## İletişim adresi
+## Contact
 
-Politikadaki iletişim adresi **liftsportsofficial@gmail.com**. Play Console'daki
-"Store listing → Contact details" alanına da aynı adresi gir; ikisinin tutması gerekiyor.
+The policy lists **liftsportsofficial@gmail.com**. Enter the same address in Play Console
+under *Store listing → Contact details* — Google expects them to match.
 
-## İçerik neden bu kadar kısa
+## Why the policy is short
 
-Uygulama gerçekten hiçbir veri toplamıyor: hesap yok, sunucu yok, analitik yok, reklam yok.
-Tüm kayıtlar cihazdaki SQLite veritabanında duruyor. Politika bunu olduğu gibi anlatıyor —
-uydurulmuş madde yok, dolayısıyla Play'in Veri Güvenliği formunda beyan edeceğin şeyle
-birebir tutuyor.
+Daily Stack collects nothing. No account, no server, no analytics, no ads, no trackers.
+Every record lives in a local SQLite database on the user's device and is never
+transmitted. The policy says exactly that, which keeps it consistent with the Data Safety
+declaration in Play Console — Google rejects submissions where the two disagree.
 
-Sağlık sorumluluk reddi bilinçli olarak eklendi: uygulama doz ve saat önerisi gösteriyor,
-Play'in sağlık içeriği politikaları böyle durumlarda tıbbi tavsiye olmadığının açıkça
-belirtilmesini bekliyor.
+The health disclaimer is deliberate: the app shows suggested doses and intake times, and
+Google Play's health content policies expect apps like this to state plainly that the
+information is not medical advice.
